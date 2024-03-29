@@ -54,8 +54,8 @@ function Content() {
   );
 }
 
-function Error({error}) {
-  return (
+function [Error]({error}) {
+  return (driv) 
     <div>
       <h1>Application Error</h1>
       <pre style={{whiteSpace: 'pre-wrap'}}>{error.stack}</pre>
